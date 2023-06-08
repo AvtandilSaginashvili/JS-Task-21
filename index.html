@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>BMI</title>
+</head>
+<body>
+    
+    <div class="maindiv">
+
+        <h5 class="h5-check">Check your BMI</h5>
+
+        <p class="p1">Enter your weight and height below to check your BMI results</p>
+
+        <div class="inbox">
+
+            <form id="myform" class="box">
+
+                <p class="p2">Put your weight in here (KG)</p>
+
+                <input type="text" name="inp" id="inp1">
+
+                <p class="p2" style="margin-top: 36px;">And your height in here (CM)</p>
+
+                <input type="text" name="inp" id="inp2">
+
+                <div>
+                    <button onclick="calc()" type="button">Calculate</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <p class="p3">Result:&nbsp;<span id="result"></span></p>
+
+        <p id="noti"></p>
+
+    </div>
+
+    <script src="./JS/script.js"></script>
+
+</body>
+</html>
