@@ -109,3 +109,10 @@ button:active {
     margin-left: 390px;
     margin-top: 88px;
 }
+
+.notifi {
+    margin-left: 390px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
